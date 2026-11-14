@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==================== AmmoSet ========================== -->
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_9mmGepard</defName>
+		<label>Universal 9mm</label>
+		<ammoTypes>
+			<Ammo_38ACP_FMJ>Bullet_38ACP_FMJ</Ammo_38ACP_FMJ>
+			<Ammo_38ACP_AP>Bullet_38ACP_AP</Ammo_38ACP_AP>
+			<Ammo_38ACP_HP>Bullet_38ACP_HP</Ammo_38ACP_HP>
+			<Ammo_9x18mmMakarov_FMJ>Bullet_9x18mmMakarov_FMJ</Ammo_9x18mmMakarov_FMJ>
+			<Ammo_9x18mmMakarov_AP>Bullet_9x18mmMakarov_AP</Ammo_9x18mmMakarov_AP>
+			<Ammo_9x18mmMakarov_HP>Bullet_9x18mmMakarov_HP</Ammo_9x18mmMakarov_HP>
+			<Ammo_9x19mmPara_FMJ>Bullet_9x19mmPara_FMJ</Ammo_9x19mmPara_FMJ>
+			<Ammo_9x19mmPara_AP>Bullet_9x19mmPara_AP</Ammo_9x19mmPara_AP>
+			<Ammo_9x19mmPara_HP>Bullet_9x19mmPara_HP</Ammo_9x19mmPara_HP>
+			<Ammo_9x21mmGyurza_FMJ>Bullet_9x21mmGyurza_FMJ</Ammo_9x21mmGyurza_FMJ>
+			<Ammo_9x21mmGyurza_AP>Bullet_9x21mmGyurza_AP</Ammo_9x21mmGyurza_AP>
+			<Ammo_9x21mmGyurza_HP>Bullet_9x21mmGyurza_HP</Ammo_9x21mmGyurza_HP>
+		</ammoTypes>
+		<similarTo>AmmoSet_Pistol</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+</Defs>

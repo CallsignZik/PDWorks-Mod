@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>OSWorks_DroneShot</defName>
+		<label>Droneshot</label>
+		<labelShort>DS</labelShort>
+		<description>Cartridge loaded with a lot of tungsten balls meant to defend personnel against flying drone threats - be then suicide drones, or recon drones.</description>
+		<advanced>true</advanced>
+	</CombatExtended.AmmoCategoryDef>
+
+</Defs>
