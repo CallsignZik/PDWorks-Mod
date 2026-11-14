@@ -73,6 +73,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.53,0.09)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	<!-- Bullpup micro-rifle / WLVRN Micron 7.62x51 -->
@@ -84,6 +93,7 @@
         <graphicData>
             <texPath>Weapons/PDWorks_Micron_762</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9,0.9)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <weaponClasses>
@@ -147,6 +157,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(1.5,1.5)</drawSize>
+				<offsets>
+					<li>(0.54,0.11)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	<!-- Crude compact grenade launcher / RGM-40 -->
@@ -243,6 +262,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.48,0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 	
 	<!-- Compact grenade launcher / GL06T -->
@@ -340,6 +368,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.48,0)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	 <!-- Armor/Armour piercing PDW / CBJ-MS -->
@@ -428,6 +465,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.52,0.08)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>PDWorks_ArmorPiercingPDWTactical</defName>
@@ -500,6 +546,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.52,0.08)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	<!-- High capacity armor/armour piercing pistol / P50 -->
@@ -573,6 +628,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.43,0.14)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	<!-- Ultra-compact shotgun / MAG-7 -->
@@ -644,6 +708,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.46,0.09)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 	<!-- 3D-Printed SMG -->
@@ -715,6 +788,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.42,0.04)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
@@ -787,6 +869,15 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.42,0.04)</li>
+				</offsets>
+			</li>
+		</modExtensions>
     </ThingDef>
 
 </Defs>

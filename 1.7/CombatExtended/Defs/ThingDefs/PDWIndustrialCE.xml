@@ -4,7 +4,7 @@
     <!-- Multi-Caliber/Calibre PDW / Gepard -->
     <ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>PDWorks_MultiCalPDW</defName>
-		<label>Gepard SMG</label>
+		<label>Gepard PDW</label>
 		<description>An exotic industrial-era PDW sharing some design familiarity with an antiquated service rifle, capable of firing a wide range of ammunition without the need to change any parts.\n\n Often issued as a weapon to aircrews and vehicle crews alike, as the option of scavenging any pistol ammunition off the enemy gives it high utility in emergency situations.</description>
 		
 		<graphicData>
@@ -94,6 +94,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps"  MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.53,0.09)</li>
+				</offsets>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -189,6 +196,13 @@
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
 			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps"  MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.53,0.09)</li>
+				</offsets>
+			</li>
 		</modExtensions>
 	</ThingDef>
 		<!-- Bullpup micro-rifle / WLVRN Micron 7.62x51 & 5.56x45 -->
@@ -200,6 +214,7 @@
         <graphicData>
             <texPath>Weapons/PDWorks_Micron_762</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9,0.9)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <weaponClasses>
@@ -283,6 +298,13 @@
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
 			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps"  MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(1.5,1.5)</drawSize>
+				<offsets>
+					<li>(0.54,0.11)</li>
+				</offsets>
+			</li>
 		</modExtensions>
     </ThingDef>
 
@@ -294,6 +316,7 @@
         <graphicData>
             <texPath>Weapons/PDWorks_Micron_556</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9,0.9)</drawSize>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <weaponClasses>
@@ -376,6 +399,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.6,0.1)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -467,6 +497,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.48,0)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -561,6 +598,13 @@
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
 			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.48,0.05)</li>
+				</offsets>
+			</li>
 		</modExtensions>
     </ThingDef>
 
@@ -653,6 +697,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.52,0.08)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -748,6 +799,13 @@
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
 			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.52,0.08)</li>
+				</offsets>
+			</li>
 		</modExtensions>
     </ThingDef>
 
@@ -822,7 +880,7 @@
 				<armorPenetrationBlunt>1.630</armorPenetrationBlunt>
 				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
 			</li>
-			<li Class="CombatExtended.ToolCE">
+			<li Class="CombatExtended.ToolCE" MayRequire="IssacZhuang.MuzzleFlash">
 				<label>muzzle</label>
 				<capacities>
 					<li>Poke</li>
@@ -836,6 +894,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.43,0.14)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -926,6 +991,13 @@
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
 			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.46,0.09)</li>
+				</offsets>
+			</li>
 		</modExtensions>
     </ThingDef>
 
@@ -1014,6 +1086,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.42,0.04)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -1106,6 +1185,13 @@
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
 				<DrawOffset>0.05,0</DrawOffset>
+			</li>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(0.8,0.8)</drawSize>
+				<offsets>
+					<li>(0.42,0.04)</li>
+				</offsets>
 			</li>
 		</modExtensions>
     </ThingDef>
