@@ -15,7 +15,7 @@
 		<statBases>
 			<WorkToMake>30000</WorkToMake>
 			<Mass>2.35</Mass>
-			<Bulk>3</Bulk>
+			<Bulk>3.8</Bulk>
 			<ShotSpread>0.15</ShotSpread>
 			<SwayFactor>1.1</SwayFactor>
 			<SightsEfficiency>1.00</SightsEfficiency>
@@ -118,7 +118,7 @@
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>2.36</Mass>
-			<Bulk>3</Bulk>
+			<Bulk>3.8</Bulk>
 			<ShotSpread>0.1</ShotSpread>
 			<SwayFactor>1.1</SwayFactor>
 			<SightsEfficiency>1.00</SightsEfficiency>
@@ -227,7 +227,7 @@
         <statBases>
             <WorkToMake>40000</WorkToMake>
             <Mass>3.33</Mass>
-			<Bulk>5</Bulk>
+			<Bulk>4.6</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>1.00</SwayFactor>
 			<SightsEfficiency>1.10</SightsEfficiency>
@@ -330,7 +330,7 @@
         <statBases>
             <WorkToMake>40000</WorkToMake>
             <Mass>3.2</Mass>
-			<Bulk>5</Bulk>
+			<Bulk>4.5</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>1.4</SwayFactor>
 			<SightsEfficiency>1.10</SightsEfficiency>
@@ -429,6 +429,7 @@
         <statBases>
             <WorkToMake>8000</WorkToMake>
             <Mass>2.5</Mass>
+			<Bulk>4.5</Bulk>
             <ShotSpread>0.2</ShotSpread>
 			<SwayFactor>1.00</SwayFactor>
 			<SightsEfficiency>1.00</SightsEfficiency>
@@ -537,6 +538,7 @@
         <statBases>
             <WorkToMake>12000</WorkToMake>
             <Mass>2</Mass>
+			<Bulk>4.2</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>1.00</SwayFactor>
 			<SightsEfficiency>1.20</SightsEfficiency>
@@ -655,6 +657,7 @@
         <statBases>
             <WorkToMake>30000</WorkToMake>
             <Mass>2.8</Mass>
+			<Bulk>3.5</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>0.90</SwayFactor>
 			<SightsEfficiency>1.00</SightsEfficiency>
@@ -674,7 +677,7 @@
         </recipeMaker>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>2.01</recoilAmount>
+				<recoilAmount>1.9</recoilAmount>
                 <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Bullet_65x25mmCBJ_ST</defaultProjectile>
@@ -754,6 +757,7 @@
         <statBases>
             <WorkToMake>5000</WorkToMake>
             <Mass>3.5</Mass>
+			<Bulk>4</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>0.95</SwayFactor>
 			<SightsEfficiency>1.25</SightsEfficiency>
@@ -774,7 +778,7 @@
         </recipeMaker>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>2.01</recoilAmount>
+				<recoilAmount>1.8</recoilAmount>
                 <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Bullet_65x25mmCBJ_ST</defaultProjectile>
@@ -856,6 +860,7 @@
         <statBases>
             <WorkToMake>30000</WorkToMake>
             <Mass>1.6</Mass>
+			<Bulk>3.3</Bulk>
             <ShotSpread>0.12</ShotSpread>
 			<SwayFactor>1.4</SwayFactor>
 			<SightsEfficiency>1.05</SightsEfficiency>
@@ -875,7 +880,7 @@
         </recipeMaker>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>1.00</recoilAmount>
+				<recoilAmount>1.75</recoilAmount>
                 <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Bullet_FN57x28mm_FMJ</defaultProjectile>
@@ -953,6 +958,7 @@
         <statBases>
             <WorkToMake>15000</WorkToMake>
             <Mass>3.7</Mass>
+			<Bulk>4</Bulk>
             <ShotSpread>0.1</ShotSpread>
 			<SwayFactor>0.90</SwayFactor>
 			<SightsEfficiency>1.00</SightsEfficiency>
@@ -971,7 +977,7 @@
         </recipeMaker>
         <verbs>
             <li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>2.01</recoilAmount>
+				<recoilAmount>3.4</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
@@ -1048,6 +1054,7 @@
         <statBases>
             <WorkToMake>15000</WorkToMake>
             <Mass>2.2</Mass>
+			<Bulk>4</Bulk>
             <ShotSpread>0.2</ShotSpread>
 			<SwayFactor>1.7</SwayFactor>
 			<SightsEfficiency>1.05</SightsEfficiency>
@@ -1143,6 +1150,7 @@
         <statBases>
             <WorkToMake>15000</WorkToMake>
             <Mass>2.2</Mass>
+			<Bulk>4</Bulk>
             <ShotSpread>0.2</ShotSpread>
 			<SwayFactor>1.7</SwayFactor>
 			<SightsEfficiency>1.05</SightsEfficiency>

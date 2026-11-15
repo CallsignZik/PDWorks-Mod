@@ -17,6 +17,7 @@
         </weaponClasses>
         <weaponTags>
             <li>ShortShots</li>
+			<li>IndustrialGunAdvanced</li>
         </weaponTags>
         <statBases>
             <WorkToMake>30000</WorkToMake>
@@ -204,6 +205,11 @@
         <weaponClasses>
             <li>RangedHeavy</li>
         </weaponClasses>
+		<weaponTags>
+            <li>ShortShots</li>
+			<li>Gun</li>
+			<li>GrenadeDestructive</li>
+        </weaponTags>
         <statBases>
             <WorkToMake>20000</WorkToMake>
             <Mass>2.5</Mass>
@@ -310,6 +316,11 @@
         <weaponClasses>
             <li>RangedHeavy</li>
         </weaponClasses>
+		<weaponTags>
+            <li>ShortShots</li>
+			<li>Gun</li>
+			<li>GrenadeDestructive</li>
+        </weaponTags>
         <statBases>
             <WorkToMake>35000</WorkToMake>
             <Mass>2</Mass>
