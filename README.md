@@ -7,4 +7,5 @@ Unavailable8492 - Art asset
 
 ## Translation credits
 Brazilian Portuguese - Mage2IsTriggered  
-French - AmeDeFeu009
+French - AmeDeFeu009  
+Chinese Simplified - QL81
