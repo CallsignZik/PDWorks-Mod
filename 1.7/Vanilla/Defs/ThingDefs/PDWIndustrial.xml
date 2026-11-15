@@ -234,8 +234,9 @@
                 <defaultProjectile>CZAPDWorks_Bullet_GrenadeLauncher</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>23.9</range>
+				<minRange>5</minRange>
 				<forcedMissRadius>0.5</forcedMissRadius>
-				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCast>PDWorks_Shot_GL40Russian</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
 				<targetParams>
@@ -340,8 +341,9 @@
                 <defaultProjectile>CZAPDWorks_Bullet_GrenadeLauncherEnhanced</defaultProjectile>
                 <warmupTime>2</warmupTime>
                 <range>23.9</range>
+				<minRange>5</minRange>
 				<forcedMissRadius>0.5</forcedMissRadius>
-				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCast>PDWorks_Shot_GL40NATO</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
 				<targetParams>
@@ -659,7 +661,7 @@
 		</weaponTags>
         <statBases>
             <WorkToMake>15000</WorkToMake>
-            <Mass>4</Mass>
+            <Mass>3.7</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.8</AccuracyShort>
             <AccuracyMedium>0.6</AccuracyMedium>
