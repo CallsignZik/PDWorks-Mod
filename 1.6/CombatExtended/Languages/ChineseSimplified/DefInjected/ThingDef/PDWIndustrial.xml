@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: ENGLISH TEXT FOR SAMPLE GOES HERE -->
+  <def.label>TRANSLATION HERE</def.label>
+  <!-- EN: ENGLISH TEXT FOR SAMPLE GOES HERE. DON'T WHITESPACE THE DESCRIPTION EITHER IT WILL CAUSE ME HEADACHES. ALSO MAINTAIN LINE BREAKS PLEASE (\n)-->
+  <def.description>TRANSLATION HERE</def.description>
+  
+  <!-- EN: frag grenade -->
+  <CZAPDWorks_Bullet_GrenadeLauncher.label>破片榴弹</CZAPDWorks_Bullet_GrenadeLauncher.label>
+  
+  <!-- EN: enhanced-effect frag grenade -->
+  <CZAPDWorks_Bullet_GrenadeLauncherEnhanced.label>强化破片榴弹</CZAPDWorks_Bullet_GrenadeLauncherEnhanced.label>
+  
+  <!-- EN: armor piercing PDW bullet -->
+  <PDWorks_Bullet_ArmorPiercingPDW.label>穿甲PDW弹</PDWorks_Bullet_ArmorPiercingPDW.label>
+  
+  
+  <!-- SEPARATOR! -->
+
+  
+  <!-- EN: Multi-caliber PDW -->
+  <PDWorks_MultiCalPDW.label>“猎豹”个人防卫武器</PDWorks_MultiCalPDW.label>
+  <!-- EN: An exotic industrial-era PDW sharing some design familiarity with an antiquated service rifle, capable of firing a wide range of ammunition without the need to change any parts.\n\n Often issued as a weapon to aircrews and vehicle crews alike, as the option of scavenging any pistol ammunition off the enemy gives it high utility in emergency situations. -->
+  <PDWorks_MultiCalPDW.description>一款风格独特的工业时代个人防卫武器，其设计与一款老旧制式步枪颇有几分相似，能够在完全不更换任何零件的情况下发射多种不同弹药。\n\n它常被配发给航空机组与车组人员，因为可以直接从敌人身上搜刮任意手枪弹药来使用，使其在紧急情况下拥有极高的实用价值。</PDWorks_MultiCalPDW.description>
+  <!-- EN: Gepard PDW -->
+  <PDWorks_GepardGrom.label>“猎豹”个人防卫武器</PDWorks_GepardGrom.label>
+  <!-- EN: An even more exotic variant of the "Gepard" PDW, which, through part replacement, has been made capable of firing a proprietary high-energy 9x30mm "Grom" cartridge. -->
+  <PDWorks_GepardGrom.description>“猎豹”个人防卫武器的进一步异域化改型。通过更换部件，它得以发射专用的高能9×30mm“格罗姆”弹。</PDWorks_GepardGrom.description>
+  
+  <!-- EN: Bullpup micro-rifle -->
+  <PDWorks_BullpupMicroRifle.label>WLVRN Micron 762</PDWorks_BullpupMicroRifle.label>
+  <!-- EN: A very compact modular bullpup rifle in a full-power rifle caliber. Boasts compact design effective at close to medium ranges and a good fire rate, at expense of total range and accuracy through a shorter barrel.-->
+  <PDWorks_BullpupMicroRifle.description>一款采用全威力步枪口径的极紧凑模块化无托步枪。紧凑的构型使其在近至中距离内相当有效，射速也很不错，但较短的枪管牺牲了总射程与精度。</PDWorks_BullpupMicroRifle.description>
+  <!-- EN: WLVRN Micron 556 (Don't touch it) -->
+  <PDWorks_BullpupMicroRifleIntermediate.label>WLVRN Micron 556</PDWorks_BullpupMicroRifleIntermediate.label>
+  <!-- EN: A very compact modular bullpup rifle in an intermediate rifle caliber. Boasts compact design effective at close to medium ranges and a good fire rate, at expense of total range and accuracy through a shorter barrel.-->
+  <PDWorks_BullpupMicroRifleIntermediate.description>一款采用中间威力步枪口径的极紧凑模块化无托步枪。紧凑的构型使其在近至中距离内相当有效，射速也很不错，但较短的枪管牺牲了总射程与精度。</PDWorks_BullpupMicroRifleIntermediate.description>
+  
+  
+  <!-- EN: Armor piercing PDW -->
+  <PDWorks_ArmorPiercingPDW.label>CBJ-MS</PDWorks_ArmorPiercingPDW.label>
+  <!-- EN: A personal defence weapon firing a pistol-caliber armour piercing round, while lacking in lethality*, it more than makes up for it in fire rate, accuracy and most importantly - armor defeat capability*.\n\nUranium cost comes from the fact it uses depleted uranium-tipped armor piercing ammo.\nThis is a lie. RimWorld vanilla damage calculations suck. Best used with CE.-->
+  <PDWorks_ArmorPiercingPDW.description>一款发射手枪口径穿甲弹的个人防卫武器。虽然杀伤力不足*，却在射速、精度，以及最重要的破甲能力*上完全弥补了这一点。\n\n它的铀成本来自其所用的贫铀弹头穿甲弹。\n这是胡扯。原版RimWorld的伤害计算烂得可以，最好配合CE使用。</PDWorks_ArmorPiercingPDW.description>
+    <!-- EN: Armor piercing PDW (Tactical) -->
+  <PDWorks_ArmorPiercingPDWTactical.label>CBJ-MS（战术型）</PDWorks_ArmorPiercingPDWTactical.label>
+  <!-- EN: A tactically-upgraded sibling of the normal armor piercing PDW. Offers more volume of fire and increased accuracy, at expense of higher weight and slight slowdown in aiming.\n\nWhich sick madman put the bipod on it though???-->
+  <PDWorks_ArmorPiercingPDWTactical.description>普通穿甲型个人防卫武器的战术升级型号。拥有更大的火力密度与更高的精度，代价是重量上升、瞄准速度略微变慢。\n\n不过到底是哪个疯子给它装了两脚架？？？</PDWorks_ArmorPiercingPDWTactical.description>
+  
+  
+  <!-- EN: Crude compact grenade launcher -->
+  <PDWorks_CrudeCompactGrenadeLauncher.label>RGM-40</PDWorks_CrudeCompactGrenadeLauncher.label>
+  <!-- EN: A crudely made grenade launcher using an underbarrel grenade launcher as a foundation, nonetheless it is still effective. Where it lacks in accuracy - it makes up in range, compactness, and fire rate.\nBest used as a sidearm, unless you fancy going up close with a grenade launcher.-->
+  <PDWorks_CrudeCompactGrenadeLauncher.description>以枪挂式榴弹发射器为基础粗制而成的榴弹发射器，虽然工艺粗糙，却依然相当好用。精度不足之处，由射程、紧凑性和射速来弥补。\n最好作为副武器使用，除非你偏爱端着榴弹发射器贴脸开火。</PDWorks_CrudeCompactGrenadeLauncher.description>
+  
+    <!-- EN: Compact grenade launcher -->
+  <PDWorks_CompactGrenadeLauncher.label>GL06T</PDWorks_CompactGrenadeLauncher.label>
+  <!-- EN: An advanced and compact grenade launcher equipped with a red dot sight. Lighter and more accurate than its crude counterpart, but more expensive to manufacture, and slightly slower to fire. Also comes with enhanced-effect grenades which do more area damage.\nBest used as a sidearm, unless you fancy going up close with a grenade launcher.-->
+  <PDWorks_CompactGrenadeLauncher.description>一款装备红点瞄准镜的先进紧凑型榴弹发射器。比简陋的同款更轻、更精准，但制造成本更高，射速也略慢一些。同时还配用强化型榴弹，可造成更大的范围伤害。\n最好作为副武器使用，除非你偏爱端着榴弹发射器贴脸开火。</PDWorks_CompactGrenadeLauncher.description>
+  
+  <!-- EN: High capacity armor piercing pistol -->
+  <PDWorks_HighCapacityArmorPiercingPistol.label>Kel-Tec P50</PDWorks_HighCapacityArmorPiercingPistol.label>
+  <!-- EN: A high capacity pistol firing armor piercing ammo. Lightweight, somewhat bulky - but deadly. Lacks in accuracy, but is quick to throw on target and let off a few rounds.-->
+  <PDWorks_HighCapacityArmorPiercingPistol.description>一款发射穿甲弹的大容量手枪。轻便，略显笨重——但足够致命。精度欠佳，却能迅速指向目标并连打几发。</PDWorks_HighCapacityArmorPiercingPistol.description>
+  
+  <!-- EN: Ultra-compact shotgun -->
+  <PDWorks_UltraCompactShotgun.label>MAG-7</PDWorks_UltraCompactShotgun.label>
+  <!-- EN: A very compact pump-action magazine-fed shotgun of antiquated design. Offers a very compact shotgun capable of putting rounds on target quickly, but lacking in accuracy and range. Somehow heavier than its larger tube-fed pump-action counterpart.-->
+  <PDWorks_UltraCompactShotgun.description>一款设计老旧的弹匣供弹式极紧凑泵动霰弹枪。它能迅速把弹丸送上目标，但精度与射程不足。不知为何，它比体积更大的管式供弹泵动霰弹枪还要沉。</PDWorks_UltraCompactShotgun.description>
+  
+  
+  <!-- EN: 3D-Printed SMG -->
+  <PDWorks_3DPrintedSMG.label>3D打印冲锋枪</PDWorks_3DPrintedSMG.label>
+  <!-- EN: A crudely made SMG chambered in a pistol caliber made using 3D printed plastic parts and some easily manufactured metal components.\n\nDon't count on it.\nDon't tell me you're going to seriously use that thing?\n\n\nMeme addition because we got bored.-->
+  <PDWorks_3DPrintedSMG.description>一款粗制的手枪口径冲锋枪，由3D打印的塑料部件和一些易于加工的金属零件制成。\n\n别指望它。\n别告诉我你真打算拿这玩意儿上场？\n\n\n纯粹是我们闲得无聊加的梗武器。</PDWorks_3DPrintedSMG.description>
+  <!-- EN: 3D-Printed SMG (Fun-switched) -->
+  <PDWorks_3DPrintedSMGFunny.label>3D打印冲锋枪（全自动改装）</PDWorks_3DPrintedSMGFunny.label>
+  <!-- EN: A crudely made SMG chambered in a pistol caliber made using 3D printed plastic parts and some easily manufactured metal components. Through some dubiously legal modifications, this gun was made able to fire in full-auto.\n\nMay lord have mercy.-->
+  <PDWorks_3DPrintedSMGFunny.description>一款粗制的手枪口径冲锋枪，由3D打印的塑料部件和一些易于加工的金属零件制成。经过一些合法性存疑的改装，这把枪得以进行全自动射击。\n\n愿主保佑。</PDWorks_3DPrintedSMGFunny.description>
+</LanguageData>

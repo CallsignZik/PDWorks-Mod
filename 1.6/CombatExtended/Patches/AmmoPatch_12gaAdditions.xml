@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_12Gauge"]/ammoTypes</xpath>
+        <value>
+            <OSWorks_Ammo_12Gauge_Birdshot>OSWorks_Bullet_12Gauge_Birdshot</OSWorks_Ammo_12Gauge_Birdshot>
+			<OSWorks_Ammo_12Gauge_Droneshot>OSWorks_Bullet_12Gauge_Droneshot</OSWorks_Ammo_12Gauge_Droneshot>
+        </value>
+    </Operation>
+
+</Patch>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo9x21mmGyurza</defName>
+		<label>9x21mm Gyurza</label>
+		<parent>AmmoPistols</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_9x30mmGrom</defName>
+		<label>9x30mm Grom</label>
+		<ammoTypes>
+			<Ammo_9x30mmGrom_FMJ>Bullet_9x30mmGrom_FMJ</Ammo_9x30mmGrom_FMJ>
+			<Ammo_9x30mmGrom_AP>Bullet_9x30mmGrom_AP</Ammo_9x30mmGrom_AP>
+			<Ammo_9x30mmGrom_HP>Bullet_9x30mmGrom_HP</Ammo_9x30mmGrom_HP>
+		</ammoTypes>
+		<similarTo>AmmoSet_Pistol</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="9x30mmGromBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>This high-velocity handgun cartridge was specifically designed for military personnel to defeat body armor.</description>
+		<statBases>
+			<Mass>0.023</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo9x21mmGyurza</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="9x21mmGyurzaBase">
+		<defName>Ammo_9x30mmGrom_FMJ</defName>
+		<label>9x30mm Grom (FMJ)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/FMJ</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>FullMetalJacket</ammoClass>
+		<cookOffProjectile>Bullet_9x30mmGrom_FMJ</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="9x21mmGyurzaBase">
+		<defName>Ammo_9x30mmGrom_AP</defName>
+		<label>9x30mm Grom (AP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/AP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<cookOffProjectile>Bullet_9x30mmGrom_AP</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="9x21mmGyurzaBase">
+		<defName>Ammo_9x30mmGrom_HP</defName>
+		<label>9x30mm Grom (HP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_9x30mmGrom_HP</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base9x30mmGromBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>92</speed>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_PistolAmmoCasings</casingMoteDefname>
+			<casingFilthDefname>Filth_PistolAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base9x30mmGromBullet">
+		<defName>Bullet_9x30mmGrom_FMJ</defName>
+		<label>9mm Grom bullet (FMJ)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>12</damageAmountBase>
+			<armorPenetrationSharp>4</armorPenetrationSharp>
+			<armorPenetrationBlunt>13.26</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base9x30mmGromBullet">
+		<defName>Bullet_9x30mmGrom_AP</defName>
+		<label>9mm Grom bullet (AP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationSharp>7</armorPenetrationSharp>
+			<armorPenetrationBlunt>13.26</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base9x30mmGromBullet">
+		<defName>Bullet_9x30mmGrom_HP</defName>
+		<label>9mm Grom bullet (HP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>15</damageAmountBase>
+			<armorPenetrationSharp>2.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>13.26</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_9x30mmGrom_FMJ</defName>
+		<label>make 9x30mm Grom (FMJ) cartridge x500</label>
+		<description>Craft 500 9x30mm Grom (FMJ) cartridges.</description>
+		<jobString>Making 9x30mm Grom (FMJ) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>24</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x30mmGrom_FMJ>500</Ammo_9x30mmGrom_FMJ>
+		</products>
+		<workAmount>2400</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_9x30mmGrom_AP</defName>
+		<label>make 9x30mm Grom (AP) cartridge x500</label>
+		<description>Craft 500 9x30mm Grom (AP) cartridges.</description>
+		<jobString>Making 9x30mm Grom (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>24</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x21mmGyurza_AP>500</Ammo_9x21mmGyurza_AP>
+		</products>
+		<workAmount>2880</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_9x30mmGrom_HP</defName>
+		<label>make 9x30mm Grom (HP) cartridge x500</label>
+		<description>Craft 500 9x30mm Grom (HP) cartridges.</description>
+		<jobString>Making 9x30mm Grom (HP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>24</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_9x30mmGrom_HP>500</Ammo_9x30mmGrom_HP>
+		</products>
+		<workAmount>2400</workAmount>
+	</RecipeDef>
+
+</Defs>

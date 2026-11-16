@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>PDWorks_Ammo65x25mmCBJ</defName>
+		<label>6.5x25mm CBJ</label>
+		<parent>AmmoPistols</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberPistol</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_65x25mmCBJ</defName>
+		<label>6.5x25mm CBJ</label>
+		<ammoTypes>
+			<Ammo_65x25mmCBJ_ST>Bullet_65x25mmCBJ_ST</Ammo_65x25mmCBJ_ST>
+			<Ammo_65x25mmCBJ_APDS>Bullet_65x25mmCBJ_APDS</Ammo_65x25mmCBJ_APDS>
+			<Ammo_65x25mmCBJ_HET>Bullet_65x25mmCBJ_HET</Ammo_65x25mmCBJ_HET>
+		</ammoTypes>
+		<similarTo>AmmoSet_Pistol</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="65x25mmCBJBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>This high-velocity handgun cartridge was specifically designed for military personnel to defeat body armor.</description>
+		<statBases>
+			<Mass>0.008</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoFN57x28mm</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="65x25mmCBJBase">
+		<defName>Ammo_65x25mmCBJ_ST</defName>
+		<label>6.5x25mm CBJ (ST)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/FMJ</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>FullMetalJacket</ammoClass>
+		<cookOffProjectile>Bullet_65x25mmCBJ_ST</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="65x25mmCBJBase">
+		<defName>Ammo_65x25mmCBJ_APDS</defName>
+		<label>6.5x25mm CBJ (APDS)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/AP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<cookOffProjectile>Bullet_65x25mmCBJ_APDS</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="65x25mmCBJBase">
+		<defName>Ammo_65x25mmCBJ_HET</defName>
+		<label>6.5x25mm CBJ (HET)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Pistol/HP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>HollowPoint</ammoClass>
+		<cookOffProjectile>Bullet_65x25mmCBJ_HET</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base65x25mmCBJBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>129</speed>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_PistolAmmoCasings</casingMoteDefname>
+			<casingFilthDefname>Filth_PistolAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base65x25mmCBJBullet">
+		<defName>Bullet_65x25mmCBJ_ST</defName>
+		<label>6.5x25mm CBJ (ST)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<armorPenetrationBlunt>10.980</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base65x25mmCBJBullet">
+		<defName>Bullet_65x25mmCBJ_APDS</defName>
+		<label>6.5x25mm CBJ (APDS)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>7</damageAmountBase>
+			<armorPenetrationSharp>10</armorPenetrationSharp>
+			<armorPenetrationBlunt>10.980</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base65x25mmCBJBullet">
+		<defName>Bullet_65x25mmCBJ_HET</defName>
+		<label>6.5x25mm CBJ (HET)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>13</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>10.980</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_65x25mmCBJ_ST</defName>
+		<label>make 6.5x25mm CBJ (ST) cartridge x500</label>
+		<description>Craft 500 6.5x25mm CBJ (ST) cartridges.</description>
+		<jobString>Making 6.5x25mm CBJ (ST) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_65x25mmCBJ_ST>500</Ammo_65x25mmCBJ_ST>
+		</products>
+		<workAmount>1000</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_65x25mmCBJ_APDS</defName>
+		<label>make 6.5x25mm CBJ (APDS) cartridge x500</label>
+		<description>Craft 500 6.5x25mm CBJ (APDS) cartridges.</description>
+		<jobString>Making 6.5x25mm CBJ (APDS) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_65x25mmCBJ_APDS>500</Ammo_65x25mmCBJ_APDS>
+		</products>
+		<workAmount>1200</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_65x25mmCBJ_HET</defName>
+		<label>make 6.5x25mm CBJ (HET) cartridge x500</label>
+		<description>Craft 500 6.5x25mm CBJ (HET) cartridges.</description>
+		<jobString>Making 6.5x25mm CBJ (HET) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_65x25mmCBJ_HET>500</Ammo_65x25mmCBJ_HET>
+		</products>
+		<workAmount>1000</workAmount>
+	</RecipeDef>
+
+</Defs>

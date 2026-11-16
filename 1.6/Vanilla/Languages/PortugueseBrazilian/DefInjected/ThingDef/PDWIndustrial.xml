@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: ENGLISH TEXT FOR SAMPLE GOES HERE -->
+  <def.label>TRANSLATION HERE</def.label>
+  <!-- EN: ENGLISH TEXT FOR SAMPLE GOES HERE. DON'T WHITESPACE THE DESCRIPTION EITHER IT WILL CAUSE ME HEADACHES. ALSO MAINTAIN LINE BREAKS PLEASE (\n)-->
+  <def.description>TRANSLATION HERE</def.description>
+  
+  <!-- EN: frag grenade -->
+  <CZAPDWorks_Bullet_GrenadeLauncher.label>granada de fragmentação</CZAPDWorks_Bullet_GrenadeLauncher.label>
+  
+  <!-- EN: enhanced-effect frag grenade -->
+  <CZAPDWorks_Bullet_GrenadeLauncherEnhanced.label>granada de fragmentação melhorada</CZAPDWorks_Bullet_GrenadeLauncherEnhanced.label>
+  
+  <!-- EN: armor piercing PDW bullet -->
+  <PDWorks_Bullet_ArmorPiercingPDW.label>munição penetrante de nlindagem para ADP</PDWorks_Bullet_ArmorPiercingPDW.label>
+  
+  
+  <!-- SEPARATOR! -->
+
+  
+  <!-- EN: Multi-caliber PDW -->
+  <PDWorks_MultiCalPDW.label>ADP Gepard</PDWorks_MultiCalPDW.label>
+  <!-- EN: An exotic industrial-era PDW sharing some design familiarity with an antiquated service rifle, capable of firing a wide range of ammunition without the need to change any parts.\n\n Often issued as a weapon to aircrews and vehicle crews alike, as the option of scavenging any pistol ammunition off the enemy gives it high utility in emergency situations. -->
+  <PDWorks_MultiCalPDW.description>Uma ADP exótica da era pré-industrial que possui familiariedade de design com um rifle de serviço antiquado, capaz de utilizar uma grande variedade de munições sem a necessidade de troca de peças. \n\nComumente dada a tripulações de veículos aéreos e terrestres, já que a opção de adiquirir qualquer munição de pistola de inimigos lhe dá grande utilidade em situações de emergência.</PDWorks_MultiCalPDW.description>
+  <!-- EN: Gepard PDW -->
+  <PDWorks_GepardGrom.label>ADP Gepard</PDWorks_GepardGrom.label>
+  <!-- EN: An even more exotic variant of the "Gepard" PDW, which, through part replacement, has been made capable of firing a proprietary high-energy 9x30mm "Grom" cartridge. -->
+  <PDWorks_GepardGrom.description>Uma versão ainda mais exótica da ADP "Gepard" que, por troca de peças, é capaz de utilizar o calibre proprietário de alta potência 9x30mm "Grom".</PDWorks_GepardGrom.description>
+  
+  <!-- EN: Bullpup micro-rifle -->
+  <PDWorks_BullpupMicroRifle.label>WLVRN Micron 762</PDWorks_BullpupMicroRifle.label>
+  <!-- EN: A very compact modular bullpup rifle in a full-power rifle caliber. Boasts compact design effective at close to medium ranges and a good fire rate, at expense of total range and accuracy through a shorter barrel.-->
+  <PDWorks_BullpupMicroRifle.description>Um rile bullpup compacto e modular em um calibre de alta potência para rifles. Possui um design compacto e efetivo de distâncias curtas a médias, com uma boa taxa de disparos, em troca tendo um alcance máximo e precisão reduzidos pelo cano mais curto.</PDWorks_BullpupMicroRifle.description>
+  <!-- EN: WLVRN Micron 556 (Don't touch it) -->
+  <PDWorks_BullpupMicroRifleIntermediate.label>WLVRN Micron 556</PDWorks_BullpupMicroRifleIntermediate.label>
+  <!-- EN: A very compact modular bullpup rifle in an intermediate rifle caliber. Boasts compact design effective at close to medium ranges and a good fire rate, at expense of total range and accuracy through a shorter barrel.-->
+  <PDWorks_BullpupMicroRifleIntermediate.description>Um rile bullpup compacto e modular em um calibre intermediário para rifles. Possui um design compacto e efetivo de distâncias curtas a médias, com uma boa taxa de disparos, em troca tendo um alcance máximo e precisão reduzidos pelo cano mais curto.</PDWorks_BullpupMicroRifleIntermediate.description>
+  
+  
+  <!-- EN: Armor piercing PDW -->
+  <PDWorks_ArmorPiercingPDW.label>CBJ-MS</PDWorks_ArmorPiercingPDW.label>
+  <!-- EN: A personal defence weapon firing a pistol-caliber armour piercing round, while lacking in lethality*, it more than makes up for it in fire rate, accuracy and most importantly - armor defeat capability*.\n\nUranium cost comes from the fact it uses depleted uranium-tipped armor piercing ammo.\nThis is a lie. RimWorld vanilla damage calculations suck. Best used with CE.-->
+  <PDWorks_ArmorPiercingPDW.description>Uma arma de defesa pessoal que dispara um projétil calibre de pistola que, embora limitado em letalidade, mais que compensa pela taxa de disparos, precisão e principalmente - capacidade de penetrar blindagens.</PDWorks_ArmorPiercingPDW.description>
+    <!-- EN: Armor piercing PDW (Tactical) -->
+  <PDWorks_ArmorPiercingPDWTactical.label>CBJ-MS (Tática)</PDWorks_ArmorPiercingPDWTactical.label>
+  <!-- EN: A tactically-upgraded sibling of the normal armor piercing PDW. Offers more volume of fire and increased accuracy, at expense of higher weight and slight slowdown in aiming.\n\nWhich sick madman put the bipod on it though???-->
+  <PDWorks_ArmorPiercingPDWTactical.description>Irmã táticamente modificada da ADP penetradora de blindagem padrão. Oferece maior volume de disparos e melhor precisão, em troca de um peso maior e velocidade de mira mais lenta. \n\nQuem foi o maluco que botou um bipé nela???</PDWorks_ArmorPiercingPDWTactical.description>
+  
+  
+  <!-- EN: Crude compact grenade launcher -->
+  <PDWorks_CrudeCompactGrenadeLauncher.label>RGM-40</PDWorks_CrudeCompactGrenadeLauncher.label>
+  <!-- EN: A crudely made grenade launcher using an underbarrel grenade launcher as a foundation, nonetheless it is still effective. Where it lacks in accuracy - it makes up in range, compactness, and fire rate.\nBest used as a sidearm, unless you fancy going up close with a grenade launcher.-->
+  <PDWorks_CrudeCompactGrenadeLauncher.description>Um lança-granadas improvisado, utilizando um lança-granadas feito para ser instalado abaixo do cano de outras armas como base, ainda sim sendo eficaz. Embora peque em precisão - Compensa em alcance, taxa de disparos e tamanho compacto. \nMelhor usado como arma secundária, a não ser que goste de usar um lança-granadas à curto alcance.</PDWorks_CrudeCompactGrenadeLauncher.description>
+  
+    <!-- EN: Compact grenade launcher -->
+  <PDWorks_CompactGrenadeLauncher.label>GL06T</PDWorks_CompactGrenadeLauncher.label>
+  <!-- EN: An advanced and compact grenade launcher equipped with a red dot sight. Lighter and more accurate than its crude counterpart, but more expensive to manufacture, and slightly slower to fire. Also comes with enhanced-effect grenades which do more area damage.\nBest used as a sidearm, unless you fancy going up close with a grenade launcher.-->
+  <PDWorks_CompactGrenadeLauncher.description>Um lança-granadas compacto e avançado, equipado com mira de ponto vermelho. Mais leve e preciso que sua versão improvisada, mas mais caro de se produzir e com uma taxa de tiro mais lenta. Também equipado com granadas melhoradas, que causam maior dano de area. \nMelhor usado como arma secundária, a não ser que goste de usar um lança-granadas à curto alcance.</PDWorks_CompactGrenadeLauncher.description>
+  
+  <!-- EN: High capacity armor piercing pistol -->
+  <PDWorks_HighCapacityArmorPiercingPistol.label>Kel-Tec P50</PDWorks_HighCapacityArmorPiercingPistol.label>
+  <!-- EN: A high capacity pistol firing armor piercing ammo. Lightweight, somewhat bulky - but deadly. Lacks in accuracy, but is quick to throw on target and let off a few rounds.-->
+  <PDWorks_HighCapacityArmorPiercingPistol.description>Uma pistola de alta capacidade que utiliza munição penetradora de blindagem. Leve, um pouco volumosa - mas letal. Peca em precisão, mas rápida em manuseio e disparo contra seu alvo.</PDWorks_HighCapacityArmorPiercingPistol.description>
+  
+  <!-- EN: Ultra-compact shotgun -->
+  <PDWorks_UltraCompactShotgun.label>MAG-7</PDWorks_UltraCompactShotgun.label>
+  <!-- EN: A very compact pump-action magazine-fed shotgun of antiquated design. Offers a very compact shotgun capable of putting rounds on target quickly, but lacking in accuracy and range. Somehow heavier than its larger tube-fed pump-action counterpart.-->
+  <PDWorks_UltraCompactShotgun.description>Uma espingarda carregada por pente 'pump-action' de design antiquado. Oferece a capacidade de efetuar disparos rápidamente contra o alvo, mas peca em precisão e alcance. Mais pesada que sua versão maior de 'pump-action' com tubo, de alguma forma.</PDWorks_UltraCompactShotgun.description>
+  
+  
+  <!-- EN: 3D-Printed SMG -->
+  <PDWorks_3DPrintedSMG.label>SMT Impressa em 3D</PDWorks_3DPrintedSMG.label>
+  <!-- EN: A crudely made SMG chambered in a pistol caliber made using 3D printed plastic parts and some easily manufactured metal components.\n\nDon't count on it.\nDon't tell me you're going to seriously use that thing?\n\n\nMeme addition because we got bored.-->
+  <PDWorks_3DPrintedSMG.description>Uma SMT de calibre de pistola improvisada, feita com peças de plástico impressas em 3D e alguns componentes de metal facilmente produzidos. \n\nNão confie nela. \nNão me fale que você vai seriamente usar esse negócio.\n\n\nInclusão meme porque ficamos entediados.</PDWorks_3DPrintedSMG.description>
+  <!-- EN: 3D-Printed SMG (Fun-switched) -->
+  <PDWorks_3DPrintedSMGFunny.label>SMT Impressa em 3D (Suicida)</PDWorks_3DPrintedSMGFunny.label>
+  <!-- EN: A crudely made SMG chambered in a pistol caliber made using 3D printed plastic parts and some easily manufactured metal components. Through some dubiously legal modifications, this gun was made able to fire in full-auto.\n\nMay lord have mercy.-->
+  <PDWorks_3DPrintedSMGFunny.description>Uma SMT de calibre de pistola improvisada, feita com peças de plástico impressas em 3D e alguns componentes de metal facilmente produzidos. Com algumas modificações, questionávelmente legais, essa arma pode disparar em modo automático. \n\nQue Deus tenha pena.</PDWorks_3DPrintedSMGFunny.description>
+</LanguageData>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <SoundDef>
+    <defName>PDWorks_Shot_GL40NATO</defName>
+    <context>MapOnly</context>
+    <eventNames/>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/PDWorks_GL40mmNATO</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40.58823</min>
+          <max>40.58823</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.95</min>
+          <max>1.05</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>PDWorks_Shot_GL40Russian</defName>
+    <context>MapOnly</context>
+    <eventNames/>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/PDWorks_GL40mmRussian</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>40.58823</min>
+          <max>40.58823</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.95</min>
+          <max>1.05</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

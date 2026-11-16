@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+		<defName>OSWorks_Ammo_12Gauge_Birdshot</defName>
+		<label>12 gauge shell (Birdshot)</label>
+		<graphicData>
+			<texPath>Ammo/12Gauge/Birdshot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>BirdShot</ammoClass>
+		<cookOffProjectile>OSWorks_Bullet_12Gauge_Birdshot</cookOffProjectile>
+		<generateAllowChance>0</generateAllowChance>
+		<tradeTags Inherit="False">
+			<li>CE_AmmoInjector</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="12GaugeBase">
+		<defName>OSWorks_Ammo_12Gauge_Droneshot</defName>
+		<label>12 gauge shell (Droneshot)</label>
+		<graphicData>
+			<texPath>Ammo/12Gauge/Droneshot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>OSWorks_DroneShot</ammoClass>
+		<cookOffProjectile>OSWorks_Bullet_12Gauge_Droneshot</cookOffProjectile>
+		<generateAllowChance>0</generateAllowChance>
+		<tradeTags Inherit="False">
+			<li>CE_AmmoInjector</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base12GaugeBullet">
+		<defName>OSWorks_Bullet_12Gauge_Birdshot</defName>
+		<label>birdshot pellet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>1.5</damageAmountBase>
+			<pelletCount>20</pelletCount>
+			<armorPenetrationSharp>0.3</armorPenetrationSharp>
+			<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+			<spreadMult>35</spreadMult>
+			<shieldDamageMultiplier>1</shieldDamageMultiplier>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="Base12GaugeBullet">
+		<defName>OSWorks_Bullet_12Gauge_Droneshot</defName>
+		<label>droneshot pellet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>2</damageAmountBase>
+			<pelletCount>14</pelletCount>
+			<armorPenetrationSharp>1</armorPenetrationSharp>
+			<armorPenetrationBlunt>2</armorPenetrationBlunt>
+			<spreadMult>15</spreadMult>
+			<shieldDamageMultiplier>1</shieldDamageMultiplier>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeOSWorks_Ammo_12Gauge_Birdshot</defName>
+		<label>make 12 gauge (Birdshot) shell x200</label>
+		<description>Craft 200 12 gauge (Birdshot) shells.</description>
+		<jobString>Making 12 gauge (Birdshot) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>22</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<OSWorks_Ammo_12Gauge_Birdshot>200</OSWorks_Ammo_12Gauge_Birdshot>
+		</products>
+		<workAmount>2200</workAmount>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeOSWorks_Ammo_12Gauge_Droneshot</defName>
+		<label>make 12 gauge (Droneshot) shell x200</label>
+		<description>Craft 200 12 gauge (Droneshot) shells.</description>
+		<jobString>Making 12 gauge (Droneshot) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>11</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<OSWorks_Ammo_12Gauge_Droneshot>100</OSWorks_Ammo_12Gauge_Droneshot>
+		</products>
+		<workAmount>1100</workAmount>
+	</RecipeDef>
+
+
+</Defs>

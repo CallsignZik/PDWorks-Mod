@@ -449,7 +449,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>CZAPDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
+                <defaultProjectile>PDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>30</range>
                 <burstShotCount>3</burstShotCount>
@@ -530,7 +530,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>CZAPDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
+                <defaultProjectile>PDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>33</range>
                 <burstShotCount>6</burstShotCount>
@@ -612,7 +612,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>CZAPDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
+                <defaultProjectile>PDWorks_Bullet_ArmorPiercingPDW</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>26</range>
                 <burstShotCount>3</burstShotCount>
@@ -684,7 +684,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <recipeMaker>
-			<researchPrerequisite>PrecisionRifling</researchPrerequisite>
+			<researchPrerequisite>Gunsmithing</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
