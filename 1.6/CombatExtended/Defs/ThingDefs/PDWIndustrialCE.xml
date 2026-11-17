@@ -107,7 +107,7 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>PDWorks_GepardGrom</defName>
-		<label>Gepard PDW</label>
+		<label>Gepard PDW (Grom Conv.)</label>
 		<description>An even more exotic variant of the "Gepard" PDW, which, through part replacement, has been made capable of firing a proprietary high-energy 9x30mm "Grom" cartridge.</description>
 		
 		<graphicData>
